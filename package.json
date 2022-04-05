@@ -1,7 +1,7 @@
 {
-  "name": "vite-plugin-remove-console",
+  "name": "vite-plugin-remove-process",
   "version": "0.0.7",
-  "description": "A vite plugin that deletes console.log in the production environment",
+  "description": "A vite plugin that deletes process.env",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "files": [
@@ -12,27 +12,18 @@
     "dev": "tsup src/index.ts --dts --format cjs,esm --watch",
     "build": "npm run clean && tsup src/index.ts --dts --format cjs,esm && babel src/ -d dist/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiaoxian521/vite-plugin-remove-console.git"
-  },
   "keywords": [
     "vite",
     "console",
-    "remove-console"
+    "remove-env"
   ],
-  "author": "xiaoxian521",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/xiaoxian521/vite-plugin-remove-console/issues"
-  },
-  "homepage": "https://github.com/xiaoxian521/vite-plugin-remove-console#readme",
   "devDependencies": {
     "@babel/cli": "latest",
     "@babel/core": "latest",
     "@babel/preset-flow": "latest",
     "@types/node": "^15.6.1",
-    "babel-remove-console": "^0.0.2",
+    "babel-remove-process-env-assignment": "^0.0.2",
     "flow-copy-source": "^2.0.9",
     "rimraf": "^3.0.2",
     "tsup": "^5.12.1",
