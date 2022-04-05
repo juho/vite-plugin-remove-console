@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-remove-process",
+  "name": "vite-plugin-remove-process-env",
   "version": "0.0.7",
   "description": "A vite plugin that deletes process.env",
   "main": "dist/index.js",
