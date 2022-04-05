@@ -1,6 +1,6 @@
-# vite-plugin-remove-console
+# vite-plugin-remove-process-env
 
-A vite plugin that deletes console.log in the production environment
+A vite plugin that deletes process-env
 
 **English** | [中文](./README.zh_CN.md)  
 
