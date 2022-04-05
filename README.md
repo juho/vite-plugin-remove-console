@@ -16,12 +16,12 @@ pnpm add vite-plugin-remove-console -D
 
 ```ts
 import { defineConfig } from 'vite';
-import removeConsole from 'vite-plugin-remove-process-env';
+import removeProcessEnv from 'vite-plugin-remove-process-env';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    removeConsole()
+    removeProcessEnv()
   ]
 });
 ```
