@@ -2,8 +2,6 @@
 
 A vite plugin that deletes process-env
 
-**English** | [中文](./README.zh_CN.md)  
-
 ## Install
 
 ```bash
